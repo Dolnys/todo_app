@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# [Todo App](https://dolnys.github.io/todo_app/) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This application is a simple to-do list written in JavaScript using the React library. It allows users to add, remove, update, and mark their tasks as completed. The application communicates with an API to manage tasks on the server.
 
-## Available Scripts
+## Technologies
+The application was built using the following technologies and libraries:
 
-In the project directory, you can run:
+- React: A JavaScript library for building user interfaces.
+- JavaScript: The primary programming language of the application.
+- HTML/CSS: Used for structuring and styling the user interface.
+- Axios: Used for making HTTP requests to the API.
 
-### `npm start`
+## Features
+The application offers the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Adding new tasks.
+- Removing tasks.
+- Updating task titles.
+- Marking tasks as completed or uncompleted.
+- Displaying the list of tasks.
+- Filtering tasks based on status (all, completed, uncompleted).
+- Removing all completed tasks.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Notes
+- The application includes error handling that displays error messages to the user.
+- The application features a task filtering function based on status to help users organize tasks.
+- The application handles all basic task operations: creation, deletion, updating, and marking as completed.
